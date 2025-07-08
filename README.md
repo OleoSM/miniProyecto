@@ -7,6 +7,7 @@ Proyecto simple de gestor de tareas usando:
 - **Frontend:** React + Axios
 
 ## Pasos para ejecutar el proyecto:
+## 0. Copie este repositorio 
 
 ### 1. Configura la base de datos MySQL
 Ejecuta el script `database.sql` en tu servidor MySQL para crear la base de datos y las tablas necesarias.
