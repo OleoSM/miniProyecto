@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXIST gestor_tareas
+CREATE DATABASE IF NOT EXISTS gestor_tareas;
 USE gestor_tareas;
 
 CREATE TABLE IF NOT EXISTS productos (
@@ -9,7 +9,6 @@ CREATE TABLE IF NOT EXISTS productos (
     localizacion VARCHAR(50) NOT NULL,
     fecha_agregado TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
 
 INSERT INTO productos (nombre, precio, condicion, localizacion) VALUES
 ('PlayStation 5', 499.99, 'nuevo', 'Mexico'),
@@ -22,11 +21,3 @@ INSERT INTO productos (nombre, precio, condicion, localizacion) VALUES
 ('Nintendo Switch', 299.99, 'nuevo', 'USA'),
 ('Apple Watch Series 8', 399.99, 'nuevo', 'Canada'),
 ('Tablet Samsung Galaxy Tab S8', 649.99, 'reacondicionado', 'Mexico');
-
--- Estas podrían ser algunas consultas para verificar
-
---SELECT * FROM productos WHERE condicion = 'nuevo';
-
---SELECT * FROM productos ORDER BY precio DESC;
-
---SELECT nombre, precio FROM productos ORDER BY fecha_agregado DESC LIMIT 5;
