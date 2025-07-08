@@ -21,7 +21,9 @@ python app.py
 ### 3. Inicia el Frontend (React)
 ```bash
 cd frontend
-npm install
+npx create-react-app frontend
+npm install axios
+Antes de iniciar copiar el archivo App.jsx a frontend/src y rempalzar el archivo App.jsx que está allí
 npm start
 ```
 
@@ -32,4 +34,4 @@ npm start
 - Listar tareas por usuario (usuario_id = 1)
 - Agregar tareas para el usuario 1
 
-Este proyecto es un ejemplo básico y se puede extender fácilmente con más funciones (login, edición, etc).
+
